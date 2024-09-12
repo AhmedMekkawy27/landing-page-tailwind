@@ -35,11 +35,6 @@
 7. Disable tap highlights on iOS
 */
 
-body{
-  font-family: "Inter", sans-serif;
-}
-
-
 html,
 :host {
   line-height: 1.5;
@@ -780,6 +775,10 @@ video {
   width: 100%;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .min-w-\[370px\] {
   min-width: 370px;
 }
@@ -1300,12 +1299,16 @@ video {
     margin-bottom: -32px;
   }
 
-  .md\:me-\[-140px\] {
-    margin-inline-end: -140px;
+  .md\:me-\[-160px\] {
+    margin-inline-end: -160px;
   }
 
   .md\:me-\[-40px\] {
     margin-inline-end: -40px;
+  }
+
+  .md\:me-\[-150px\] {
+    margin-inline-end: -150px;
   }
 
   .md\:inline-block {
