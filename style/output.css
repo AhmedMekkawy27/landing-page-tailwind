@@ -35,6 +35,11 @@
 7. Disable tap highlights on iOS
 */
 
+body{
+  font-family: "Inter", sans-serif;
+}
+
+
 html,
 :host {
   line-height: 1.5;
@@ -953,6 +958,11 @@ video {
 .bg-\[\#fff2f2\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 242 242 / var(--tw-bg-opacity));
+}
+
+.bg-slate-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .p-1 {
